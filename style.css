@@ -1,0 +1,71 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.input-section {
+    height: 100px;
+    width: 500px;
+    margin: auto;
+}
+.input-section input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.input-section button{
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    border-radius: 15px;
+}
+#meals {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.meal {
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+   cursor: pointer;
+}
+
+.meal img {
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+.meal h3 {
+    font-size: 30px;
+    color: indigo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+#meal-details{
+    width: 400px;
+    margin: auto;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+#meal-details p {
+    color: tomato;
+    padding:0 20px;
+
+}
+
+#meal-details img {
+    width: 400px;
+}
+
+button {
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: teal;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
